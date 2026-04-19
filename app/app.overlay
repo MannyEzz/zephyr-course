@@ -1,0 +1,12 @@
+/{
+	aliases{
+		app-led = &led0;
+	};
+
+	leds{
+		led0: led_0 {
+			gpios = < &gpiob 0x0 0x0 >;
+			label = "App led 0";         
+		};	
+	};
+};
